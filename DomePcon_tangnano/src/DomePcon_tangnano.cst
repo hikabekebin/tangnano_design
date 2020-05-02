@@ -1,0 +1,57 @@
+//Copyright (C)2014-2020 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: V1.9.3.01Beta
+//Part Number: GW1N-LV1QN48C6/I5
+//Created Time: Sun 04 26 17:37:14 2020
+
+IO_LOC "clk_24" 35;
+IO_LOC "xrst" 14;
+IO_LOC "clk_out" 32;
+IO_PORT "clk_out" IO_TYPE=LVCMOS33;
+IO_LOC "vs_out" 31;
+IO_PORT "vs_out" IO_TYPE=LVCMOS33;
+IO_LOC "hs_out" 30;
+IO_PORT "hs_out" IO_TYPE=LVCMOS33;
+IO_LOC "de_out" 28;
+IO_PORT "de_out" IO_TYPE=LVCMOS33;
+IO_LOC "rdata_out[0]" 33;
+IO_PORT "rdata_out[0]" IO_TYPE=LVCMOS33;
+IO_LOC "rdata_out[1]" 34;
+IO_PORT "rdata_out[1]" IO_TYPE=LVCMOS33;
+IO_LOC "rdata_out[2]" 16;
+IO_PORT "rdata_out[2]" IO_TYPE=LVCMOS33;
+IO_LOC "rdata_out[3]" 17;
+IO_PORT "rdata_out[3]" IO_TYPE=LVCMOS33;
+IO_LOC "rdata_out[4]" 18;
+IO_PORT "rdata_out[4]" IO_TYPE=LVCMOS33;
+IO_LOC "rdata_out[5]" 20;
+IO_PORT "rdata_out[5]" IO_TYPE=LVCMOS33;
+IO_LOC "gdata_out[0]" 21;
+IO_PORT "gdata_out[0]" IO_TYPE=LVCMOS33;
+IO_LOC "gdata_out[1]" 22;
+IO_PORT "gdata_out[1]" IO_TYPE=LVCMOS33;
+IO_LOC "gdata_out[2]" 24;
+IO_PORT "gdata_out[2]" IO_TYPE=LVCMOS33;
+IO_LOC "gdata_out[3]" 19;
+IO_PORT "gdata_out[3]" IO_TYPE=LVCMOS33;
+IO_LOC "gdata_out[4]" 23;
+IO_PORT "gdata_out[4]" IO_TYPE=LVCMOS33;
+IO_LOC "gdata_out[5]" 15;
+IO_PORT "gdata_out[5]" IO_TYPE=LVCMOS33;
+IO_LOC "bdata_out[0]" 39;
+IO_PORT "bdata_out[0]" IO_TYPE=LVCMOS33;
+IO_LOC "bdata_out[1]" 40;
+IO_PORT "bdata_out[1]" IO_TYPE=LVCMOS33;
+IO_LOC "bdata_out[2]" 41;
+IO_PORT "bdata_out[2]" IO_TYPE=LVCMOS33;
+IO_LOC "bdata_out[3]" 42;
+IO_PORT "bdata_out[3]" IO_TYPE=LVCMOS33;
+IO_LOC "bdata_out[4]" 43;
+IO_PORT "bdata_out[4]" IO_TYPE=LVCMOS33;
+IO_LOC "bdata_out[5]" 44;
+IO_PORT "bdata_out[5]" IO_TYPE=LVCMOS33;
+IO_LOC "xstby" 29;
+IO_PORT "xstby" IO_TYPE=LVCMOS33;
+IO_LOC "rev" 27;
+IO_PORT "rev" IO_TYPE=LVCMOS33;
